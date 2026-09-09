@@ -2,6 +2,8 @@
 
 An end-to-end Data Engineering and Business Intelligence project simulating a travel-tech analytics pipeline. This project extracts, transforms, and loads (~300,000 records) of flight data into an optimized MySQL Star Schema, visualized via an interactive Tableau dashboard to derive pricing and route insights.
 
+🔗 **[View Live Tableau Dashboard](https://public.tableau.com/app/profile/sagita.pra.kosa/viz/Flight-Analytics-Dashboard/Dashboard1?publish=yes)**
+
 ## 📊 Project Architecture
 1. **Extract & Transform:** Python (Pandas) for data cleaning, handling missing values, and structuring data into Fact and Dimension tables.
 2. **Load (Data Warehouse):** Loaded into MySQL (via Laragon) establishing a relational Star Schema.
